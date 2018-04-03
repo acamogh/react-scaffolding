@@ -1,0 +1,122 @@
+
+@media screen and (max-width: 1200px) {
+    .facilities{
+        .links{
+            li{
+                margin-right: 6%;
+            }
+        }
+      } 
+  .navbar {
+    .container {
+      width: 900px;
+    }
+    .navbar-header {
+      width: 67%;
+      .navbar-brand {
+        img {
+          width: 13%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .slick-prev:before, .slick-next:before{
+    font-size: 20px !important;
+  }
+  .navbar .container {
+    width: 100%;
+  }
+  .navbar .container {
+    width: 100%;
+  }
+  .navbar-collapse {
+    position: relative;
+  }
+  .navbar-right {
+    position: absolute;
+    right: 15px;
+    top: -2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-view{
+    display: block !important;
+    border-bottom: 0;
+  }
+  .desktop-view{
+    display: none !important;
+  }
+  .slick-prev,
+  .slick-next {
+    font-size: 40px;
+  }
+    .navbar-toggle{
+        margin-right: 0;
+    }
+    .marginBtm10{
+        margin-bottom: 10px;
+    }
+  .navbar-right {
+    position: initial;
+    height: 100% !important;
+    padding: 0 10%;
+  }
+  .navbar-header {
+    position: relative;
+    width: 100% !important;
+  }
+  .navbar-brand {
+    position: absolute;
+    left: 0;
+    img{
+        width: 23% !important;
+    }
+    .input-holder{
+        margin-left: 0 !important;
+    }
+  }
+  .facilities {
+      margin: 35px 35px;
+      margin-top: -20px;
+      .room-content{
+        margin-top: 20px;
+        padding: 0;
+      }
+    .links {
+      li {
+        margin-right: 2%;
+        font-size: 10px;
+        
+      }
+    }
+  }
+  .detail-section {
+    .sub-title {
+      padding: 10px 0 !important;
+    }
+    .title {
+      font-size: 20px;
+    }
+    .title-holder {
+      margin: 35px 35px;
+    }
+  }
+  .n-btn-holder {
+    position: initial !important;
+    display: block;
+    button {
+      width: 115px !important;
+      font-size: 10px !important;
+      margin-left: 0 !important;
+      margin-right: 10px;
+      margin-top: 2%;
+    }
+  }
+  .room-type.n-section{
+    padding-bottom: 0;
+  }
+}

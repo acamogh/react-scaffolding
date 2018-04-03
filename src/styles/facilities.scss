@@ -1,0 +1,127 @@
+$main-color: #46747d;
+$small-font-size: 14px;
+
+%bold-text {
+  font-family: Montserrat-Bold;
+  color: #46747d;
+}
+
+.facilities {
+  margin: 35px 100px;
+  margin-top: 0;
+
+  .data-content{
+    margin: 35px 0;
+  }
+  .facilities-sec {
+    .desc {
+      color: $main-color
+    }
+  }
+  .links {
+    
+    border-bottom: 1px solid #E7E7E7;
+    box-shadow: 0px 1px #a7a7a761;
+    li {
+      display: inline-block;
+      margin-right: 10%;
+      padding-bottom: 15px;
+      
+    }
+    a {
+      color: $main-color;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer;
+      font-family: Roboto-regular;
+    }
+      li.active{
+      border-bottom: 2px solid #1590AE;
+      padding-bottom: 17px;
+    }
+  }
+  .n-section {
+    padding: 30px 0;
+    border-bottom: 1px solid #E7E7E7;
+    .links {
+      margin-top: 25px;
+    }
+    .name {
+      @extend %bold-text;
+      font-size: 20px;
+    }
+  }
+  .nav-bar .data {
+    padding: 30px 0;
+  }
+  .row.data img {
+    width: 100%;
+  }
+  .food-option {
+    .food-section {
+      
+      .media-heading {
+        @extend %bold-text;
+        font-size: $small-font-size;
+        text-transform: capitalize;
+      }
+      .media-left img {
+        height: 40px;
+      }
+      .media-body p.dish-desc {
+        color: $main-color;
+        height: 10px;
+        
+      }
+      
+    }
+    .detailed-menu {
+      @extend %bold-text;
+      cursor: pointer;
+    }
+  }
+  .property-amenities {
+    margin-bottom: 0;
+
+    .icon-name{
+      vertical-align: 0;
+    }
+  }
+  .room-type {
+    .data {
+      margin: 35px 0;
+      .desc {
+        color: $main-color;
+        margin: 18px 0;
+      }
+      .type {
+        @extend %bold-text;
+      }
+      .rent {
+        color: $main-color;
+        display: block;
+        margin-bottom: 10px;
+        span {
+          @extend %bold-text;
+        }
+      }
+      .deposit {
+        @extend %bold-text;
+      }
+    }
+    .links {
+      li a {
+        color: #1590AE
+      }
+    }
+  }
+}
+
+.location{
+  .map-wrapper{
+    height: 50vh !important;
+    width: auto !important;
+    margin-top: 30px;
+  }
+}
+

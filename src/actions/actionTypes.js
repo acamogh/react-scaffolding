@@ -1,0 +1,1 @@
+export const SHOW_WELCOME_PAGE = 'SHOW_WELCOME_PAGE';

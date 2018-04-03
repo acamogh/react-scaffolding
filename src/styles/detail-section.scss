@@ -1,0 +1,57 @@
+$main-color: #46747d;
+
+.detail-section {
+  .title-holder {
+    margin: 35px 100px;
+    position: relative;
+  }
+  .n-btn-holder {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .title {
+    display: block;
+    font-family: Montserrat-Bold;
+    font-size: 30px;
+    color: $main-color;
+  }
+  .n-btn-holder .btn {
+    width: 190px;
+    height: 40px;
+    margin-left: 20px;
+    border-color: #314E54;
+    text-transform: uppercase;
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  .n-btn-holder .btn.book-now {
+    background: #009E8A;
+    color: #fff;
+    border: none;
+  }
+  .sub-title{
+    padding: 23px 0;
+    display: block;
+    font-size: 19px;
+    font-family: Montserrat;
+    color: rgb(167, 172, 175)
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  
+  .detail-section {
+    .n-btn-holder {
+        top: 47%;
+    }
+  }
+  .facilities{
+    .links{
+        li{
+            margin-right: 6%;
+        }
+    }
+  } 
+}
