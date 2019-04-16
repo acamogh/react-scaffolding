@@ -1,4 +1,3 @@
-# Carcility Web (customer side)
 #### Libraries used
  - [React JS]
  - [Redux]
